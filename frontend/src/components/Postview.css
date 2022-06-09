@@ -1,0 +1,77 @@
+.site-container {
+  text-align: center;
+}
+html {
+  font-size: 14px;
+}
+body {
+  line-height: 1.5;
+  color: black;
+  margin: 0;
+}
+.post {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid rgb(220, 217, 217);
+  border-radius: 5px;
+  width: 600px;
+  margin: auto;
+  margin-bottom: 2%;
+  transition: 1s;
+}
+
+.postimage {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(242, 240, 240);
+}
+.postimage img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.tophalf,
+.actions,
+.bottomhalf {
+  padding: 3%;
+}
+
+.tophalf {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tophalf p {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.tools {
+  margin-right: 8px;
+}
+
+.lighttext {
+  color: rgb(114, 114, 114);
+}
+
+.bottomhalf p {
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+.middlebar {
+  display: flex;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 650px) {
+  .post {
+    width: 500px;
+    transition: 1s;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .post {
+    width: 310px;
+    transition: 1s;
+  }
+}

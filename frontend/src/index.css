@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.landing {
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+}
+
+.landing img {
+  width: 30%;
+}
+
+#enterbutton {
+  color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 5%;
+}
+
+#btn {
+  color: green;
+  padding: 2%;
+  border: 1px solid green;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.header {
+  padding-left: 5%;
+  padding-right: 5%;
+  border-bottom: 1px solid rgb(210, 209, 209);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 90vw;
+  z-index: 100;
+  background-color: rgb(255, 255, 255);
+}
+.header img:first-child {
+  width: 25px;
+  height: 25px;
+  margin-right: 15px;
+}
+
+.header img:last-child {
+  width: 35px;
+  margin-right: 15px;
+}
+
+#name-and-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.whitespace {
+  height: 12vh;
+}
+
+.add-post-container {
+  display: flex;
+  padding: 1%;
+  flex-direction: column;
+  width: 320px;
+  height: 150px;
+  justify-content: center;
+  border: 1px solid rgb(162, 160, 160);
+  margin: auto;
+  margin-top: 3%;
+}
+
+.author-location {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-post-container button {
+  margin-top: 3%;
+  width: 20%;
+  align-self: center;
+}
+
+#post-button-inactive {
+  background-color: rgb(235, 233, 233);
+  border: 1px solid black;
+  border-radius: 3px;
+  color: gray;
+}
+
+#post-button-active {
+  background-color: rgb(44, 106, 230);
+  border: 1px solid black;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+}
+
+#add-post-icon:hover {
+  cursor: pointer;
+}
+#home-icon:hover {
+  cursor: pointer;
+}
+#image-upload {
+  border: 1px solid rgb(120, 118, 118);
+  color: rgb(104, 102, 102);
+}
