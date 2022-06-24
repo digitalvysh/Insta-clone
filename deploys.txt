@@ -1,7 +1,0 @@
-for frontend -
-heroku git:remote -a instaclone-f
-git subtree push --prefix frontend heroku main
-
-for backend - 
-heroku git:remote -a instaclone-a
-git subtree push --prefix backend heroku main
